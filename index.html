@@ -755,27 +755,25 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8 mt-5 mt-lg-0" style="display: flex; align-items: center; justify-content: center;">
 
-            <form action="https://formsubmit.co/sabadomanuel15@email.com" method="POST">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-             
-              <div class="text-center"><button type="submit" style="background-color:blue; color: white; border: none; margin-top: 20px; padding: 8px 15px; border-radius: 5%;">Send Message</button></div>
-            </form>
-
+            <!-- Google Calendar Appointment Scheduling begin -->
+                  <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                  <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                  <script>
+                  (function() {
+                    var target = document.currentScript;
+                    window.addEventListener('load', function() {
+                      calendar.schedulingButton.load({
+                        url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ16l--_qxTn9ISeig9-p0FaGRDa_vVMEpWz9v0187bCmefXToJ9lQuFNEwqqUXsmZGVbZQxf48j?gv=true',
+                        color: '#039BE5',
+                        label: 'Book an appointment',
+                        target,
+                      });
+                    });
+                  })();
+                  </script>
+            <!-- end Google Calendar Appointment Scheduling -->
           </div>
 
         </div>
@@ -798,7 +796,7 @@
         <a href="https://www.linkedin.com/in/manuel-sabado-7251ab288/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Mr. Saturday</span></strong>. All Rights Reserved 2024 / updated October 21, 2024
+        &copy; Copyright <strong><span>Mr. Saturday</span></strong>. All Rights Reserved 2024
       </div>
       <div class="credits">
       
